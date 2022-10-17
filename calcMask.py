@@ -12,7 +12,7 @@ def getMask(diap_ip):
     key = list(masks.keys()) 
     ind = 0 
     while key[ind] < result: 
-        ch += 1 
+        ind += 1 
     
     mask = key[ind]
     result_ip = first_ip + "\\" + str(masks[mask])
